@@ -11,6 +11,6 @@ function add(){
 }
 
 function change(){
-    localStorage.setItem("oggetti", JSON.stringify(oggetti));
+    localStorage.setItem("dati", JSON.stringify(oggetti));
     location.href = url;
 }
