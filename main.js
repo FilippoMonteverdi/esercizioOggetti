@@ -5,8 +5,8 @@ url = "https://filippomonteverdi.github.io/esercizioOggetti/tabella.html";
 function add(){
     var nome = document.getElementById("nome").value;
     var cognome = document.getElementById("cognome").value;
-    var classe = document.getElementById("classe").value;
-    oggetti[n] = {name:nome, surname:cognome, class:classe};
+    var scuola = document.getElementById("scuola").value;
+    oggetti[n] = {nome:nome, cognome:cognome, scuola:scuola};
     n++;
 }
 
